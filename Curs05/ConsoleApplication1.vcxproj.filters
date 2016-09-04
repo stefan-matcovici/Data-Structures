@@ -23,10 +23,10 @@
     <ClInclude Include="ArboriL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cozi.h">
+    <ClInclude Include="Stive.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Stive.h">
+    <ClInclude Include="Queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

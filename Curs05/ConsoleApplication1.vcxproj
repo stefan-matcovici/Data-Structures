@@ -155,7 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArboriL.h" />
-    <ClInclude Include="Cozi.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="Stive.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

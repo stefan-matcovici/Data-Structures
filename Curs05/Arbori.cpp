@@ -1,7 +1,16 @@
-#include "ArboriL.h"
+#include "Queue.h"
+#include <iostream>
 int main()
 {
-	ArbBin A;
+
+	Queue<int> q;
+	q.push(1);
+	q.push(2);
+
+	q.clear();
+
+	std::cout << q.isEmpty() << std::endl;
+	/*ArbBin A;
 	A = ArbBinVid();
 	insereazaArbore(A, A.rad, 'S', 4);
 	insereazaArbore(A, A.rad, 'S', 8);
@@ -23,7 +32,7 @@ int main()
 	insereazaArbore(B, B.rad->stg->stg, 'D', 9);
 	insereazaArbore(B, B.rad->stg->drp, 'S', 10);
 	insereazaArbore(B, B.rad->stg->drp, 'D', 11);
-
+*/
 	/*
 	parcurgerePreordine(A.rad);
 	cout << endl;
@@ -74,11 +83,11 @@ int main()
 	cout << mini;
 	*/
 
-	parcurgereInordine(A.rad);
-	cout << endl;
-	doubletree(A.rad);
-	parcurgereInordine(A.rad);
-	cout << endl;
+	//parcurgereInordine(A.rad);
+	//cout << endl;
+	//doubletree(A.rad);
+	//parcurgereInordine(A.rad);
+	//cout << endl;
 
 	return 0;
 }

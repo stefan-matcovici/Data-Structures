@@ -16,10 +16,9 @@ class Stack
 	StackNode* m_begin;
 
 public:
-	Stack()
-	{
-		m_begin = 0;
-	}
+	Stack(): m_begin(0)
+	{ }
+
 	void clear()
 	{
 		while (!isEmpty())
